@@ -1,12 +1,10 @@
 package com.fiap.gestao_pedidos_microservice.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import java.math.BigDecimal;
 
-@Getter
-@Setter
+@Data
 public class ProdutoDTO {
     private String nome;
     private String descricao;
