@@ -1,10 +1,10 @@
-package com.fiap.produtos_microservice;
+package com.fiap.gestao_pedidos_microservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProdutosMicroserviceApplicationTests {
+class GestaoPedidosMicroserviceApplicationTests {
 
 	@Test
 	void contextLoads() {
