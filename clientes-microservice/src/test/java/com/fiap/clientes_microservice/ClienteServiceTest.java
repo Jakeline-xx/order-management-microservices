@@ -28,11 +28,11 @@ class ClienteServiceTest {
     @Test
     void criarCliente() {
         Cliente cliente = new Cliente();
-        cliente.setNome("João");
+        cliente.setNome("Jakeline");
         when(clienteRepository.save(any(Cliente.class))).thenReturn(cliente);
 
         Cliente clienteCriado = clienteService.criarCliente(cliente);
         assertNotNull(clienteCriado);
-        assertEquals("João", clienteCriado.getNome());
+        assertEquals("Jakeline", clienteCriado.getNome());
     }
 }
